@@ -54,7 +54,7 @@ Os **conjuntos** são representados por letras **maiúsculas** e os **elementos*
 
 Temos também outra forma de representar conjuntos que é o diagrama de Venn-Euler representado na imagem abaixo.
 
-![](diagramVenn.jpg "Imagem de um diagrama de Venn-Euler")
+![](../assets/imgs/diagramVenn.jpg "Imagem de um diagrama de Venn-Euler")
 
 ### Relações
 
@@ -72,7 +72,7 @@ Temos o relacionamento entre elemento e conjunto, este relacionamento de baseia 
 
 Há também o relacionamento entre os conjuntos, este relacionamento se baseia no conceito de **incluído** ou **não incluido**.
 
-![O conjunto B esta contido em A](./conjuntosinclusao.png)
+![O conjunto B esta contido em A](../assets/imgs/conjuntosinclusao.png)
 
 > B &subseteq; A
 > - 
@@ -131,7 +131,7 @@ Também pode ser representado assim:
 
 A mesma representação em diagrama:
 
-![](./interseccao.webp)
+![](../assets/imgs/interseccao.webp)
 
 #### Diferença entre conjutos
 

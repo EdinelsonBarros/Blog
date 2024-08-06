@@ -10,7 +10,7 @@ categories: matematica aplicada
 
 Conjunto é o agrupamento de elementos que possuem uma característica em comum. Por exemplo o conjunto de números inteiros de 0 a 5 é:
 
-> `{1, 2, 3, 4, 5}`
+> `{0, 1, 2, 3, 4, 5}`
 > - 
 > - Todos os números representados acima tem em comum o fatos de serem inteiros e estarem no intervalo de 0 à 5. O número 1,1 não faz parte pois não é um número inteiro assim como 6 não faz parte do conjunto por estar fora do intervalo do conjunto.
 
@@ -34,25 +34,25 @@ Temos também outra forma de representar conjuntos que é o diagrama de Venn-Eul
 
 ### Relações
 
-Temos o relacionamento entre elemento e conjunto, este relacionamento de baseia no pertencimento.
+Temos o relacionamento entre elemento/conjunto e o relacionamento entre conjuntos, o relacionamento entre elemnto/conjunto se baseia no pertencimento.
 
 
-#### Representação de relacionamento de pertencimento
+#### Representação do relacionamento de pertencimento
 > dó &isin; M
 > - 
 > - Lê-se: o elemento dó pertence ao conjunto M 
 
 > ml &notin; M
 > - 
-> - Lê-se: o elemento ml não pertence ao conjunto M, pois ml é uma unidade de medida não um nota musical 
+> - Lê-se: o elemento ml não pertence ao conjunto M. Pois ml é uma unidade de medida não um nota musical 
 
-Há também o relacionamento entre os conjuntos, este relacionamento se baseia no conceito de **incluído** ou **não incluido**.
+Já o realcionamento entre os conjuntos se baseia no conceito de **incluído** ou **não incluido**.
 
 ![O conjunto B esta contido em A](/assets/imgs/conjuntosinclusao.png)
 
 > B &subseteq; A
 > - 
-> - Lê-se: o conjunto B está contido no conjunto A, logo B é um subconjunto de A.
+> - Lê-se: o conjunto B está contido no conjunto A. Logo B é um subconjunto de A.
 
 > F &nsubseteq; A
 > - 
@@ -111,5 +111,47 @@ A mesma representação em diagrama:
 
 #### Diferença entre conjutos
 
+A diferença entre A e B será um novo conjunto que possui apenas os elementos contidos em A.
 
 
+![](/assets/imgs/conjuntosinclusao.png)
+
+Dado os conjuntos A e B acima façamos a representação por extenso e a operação de diferença entre A e B.
+
+*Representação por extenso.*
+
+> `A = { 1, 2, 3, 4, 6, 12}`
+> - 
+> `B = { 1, 2, 3, 6}`
+> - 
+
+*Operação de diferença entre os A e B conjuntos*
+
+> `A - B = { 12, 4 }`
+> - 
+
+É importante observar que `A - B é diferente de B - A.`
+
+*B - A seria:*
+
+> `B - A = {}`
+> - 
+> *O resultado da diferença seria um conjunto vazio, pois não há nenhum elemento que contenhaexclusivamente em B.*
+
+### Propriedades das Operações Entre Conjuntos
+
+> O resultado da união de um conjunto com conjunto vazio é igual a ele mesmo.
+>
+> `A `&#8899;  &#8709; `= A`
+
+> A união entre conjuntos é comutativa, portanto independente da ordem o resultado é o mesmo.
+>
+> `A ` &#8899; `B = B` &#8899; `A`
+
+> Independência: a união de um conjunto com ele próprio resulta no próprio conjunto.
+>
+> `A ` &#8899; `A = A`
+
+> Associatividade: a união entre mais de dois conjuntos dará o mesmo resultado independente da ordem.
+>
+> <p>A &#8899 B = B &#8899 A</p> 

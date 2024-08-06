@@ -154,4 +154,4 @@ Dado os conjuntos A e B acima façamos a representação por extenso e a operaç
 
 > Associatividade: a união entre mais de dois conjuntos dará o mesmo resultado independente da ordem.
 >
-> <p>A &#8899 B = B &#8899 A</p> 
+> A &#8899; B = B &#8899; A 
